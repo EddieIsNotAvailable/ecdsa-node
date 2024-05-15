@@ -59,6 +59,7 @@ input {
   letter-spacing: 1px;
   font-weight: 400;
   font-size: .9em;
+
   &:hover {
     cursor: pointer;
   }
@@ -83,4 +84,18 @@ input {
 .transfer {
   display: flex;
   flex-direction: column;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 .5em;
+}
+
+table tbody tr td {
+  padding-right: 3em;
+  text-align: left;
+}
+
+table thead th {
+  text-align: left;
 }
